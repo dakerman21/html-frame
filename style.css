@@ -17,6 +17,28 @@
 p {
   font-family: georgia,serif;
   line-height: 180%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+img {
+  align-items: center;
+  padding-left: 175px;
+  padding-bottom: 20px;
+}
+
+.caption {
+  font-family: georgia,serif;
+  font-size: 12px;
+  padding-left: 175px;
+  position: relative;
+  bottom: 20px;
+  color: grey;
+}
+
+.pagefooter {
+  background-color: #5B5A5B;
+  color: white;
+  position: relative;
+  top: 75px;
 }
