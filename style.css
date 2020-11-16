@@ -1,22 +1,22 @@
 .headline {
-  font-size: 3em;
+  font-size: 1.75em;
   font-weight: 700;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: georgia, sans-serif;
 }
 
 
 .byline {
-  font-size: 1em;
+  font-size: 15px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  font-family: georgia, sans-serif;
+  color: grey;
 }
 
 .chapterheadline {
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: georgia, sans-serif;
 }
 
 p {
@@ -46,4 +46,15 @@ img {
   color: white;
   position: relative;
   top: 75px;
+}
+
+blockquote {
+  padding-left: 175px;
+  padding-right: 175px;
+  font-family: georgia,serif;
+  font-size: 25px;
+  color: grey;
+  font-weight: lighter;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
 }
