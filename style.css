@@ -56,3 +56,8 @@ blockquote {
   color: grey;
   font-weight: lighter;
 }
+
+.cinteractivetable {
+  font-family: georgia,serif;
+margin-left: 1000px;
+}
