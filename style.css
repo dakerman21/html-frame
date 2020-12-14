@@ -1,3 +1,15 @@
+/*Style CSS copied from bootstrap link provided in ELMS */
+/* Extra small devices (phones, less than 768px) */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
 .headline {
   font-size: 2em;
   font-weight: 700;
@@ -77,6 +89,7 @@ blockquote {
   font-family: georgia,serif;
 margin-left: 1000px;
 }
+
 /*found CSS for navbar to stay the whole time on stackoverflow.com*/
 .navbar {
    z-index: 10000;
