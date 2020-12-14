@@ -2,7 +2,7 @@
 /* Extra small devices (phones, less than 768px) */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+@media (min-width: 768px) {
   .headline {
     font-size: 2em;
     font-weight: 700;
@@ -93,7 +93,7 @@
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media (min-width: 992px) {
   .headline {
     font-size: 2em;
     font-weight: 700;
@@ -184,7 +184,7 @@
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+@media (min-width: 1200px) {
   .headline {
     font-size: 2em;
     font-weight: 700;
