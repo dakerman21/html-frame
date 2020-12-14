@@ -2,13 +2,277 @@
 /* Extra small devices (phones, less than 768px) */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-sm-min) {
+  .headline {
+    font-size: 2em;
+    font-weight: 700;
+    text-align:
+    font-family: georgia, sans-serif;
+  }
+
+
+  .byline {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: georgia, sans-serif;
+    color: grey;
+  }
+
+  .chapterheadline1 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  .chapterheadline2 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  .chapterheadline3 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  p {
+    font-family: georgia,serif;
+    line-height: 180%;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+
+  img {
+    align-items: center;
+    padding-left: 175px;
+    padding-bottom: 20px;
+  }
+
+  .caption {
+    font-family: georgia,serif;
+    font-size: 12px;
+    padding-left: 175px;
+    position: relative;
+    bottom: 20px;
+    color: grey;
+  }
+
+  .pagefooter {
+    background-color: #5B5A5B;
+    color: white;
+    position: relative;
+    top: 75px;
+  }
+
+  blockquote {
+    font-size: 30px;
+    color: grey;
+    font-weight: lighter;
+    font-family: georgia,"timesnewroman",helvetica;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+
+  .cinteractivetable {
+    font-family: georgia,serif;
+  margin-left: 1000px;
+  }
+
+  /*found CSS for navbar to stay the whole time on stackoverflow.com*/
+  .navbar {
+     z-index: 10000;
+     position: fixed;
+     width: 100%;
+  }
+
+}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width: @screen-md-min) {
+  .headline {
+    font-size: 2em;
+    font-weight: 700;
+    text-align:
+    font-family: georgia, sans-serif;
+  }
+
+
+  .byline {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: georgia, sans-serif;
+    color: grey;
+  }
+
+  .chapterheadline1 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  .chapterheadline2 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  .chapterheadline3 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  p {
+    font-family: georgia,serif;
+    line-height: 180%;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+
+  img {
+    align-items: center;
+    padding-left: 175px;
+    padding-bottom: 20px;
+  }
+
+  .caption {
+    font-family: georgia,serif;
+    font-size: 12px;
+    padding-left: 175px;
+    position: relative;
+    bottom: 20px;
+    color: grey;
+  }
+
+  .pagefooter {
+    background-color: #5B5A5B;
+    color: white;
+    position: relative;
+    top: 75px;
+  }
+
+  blockquote {
+    font-size: 30px;
+    color: grey;
+    font-weight: lighter;
+    font-family: georgia,"timesnewroman",helvetica;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+
+  .cinteractivetable {
+    font-family: georgia,serif;
+  margin-left: 1000px;
+  }
+
+  /*found CSS for navbar to stay the whole time on stackoverflow.com*/
+  .navbar {
+     z-index: 10000;
+     position: fixed;
+     width: 100%;
+  }
+
+ }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: @screen-lg-min) {
+  .headline {
+    font-size: 2em;
+    font-weight: 700;
+    text-align:
+    font-family: georgia, sans-serif;
+  }
+
+
+  .byline {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: georgia, sans-serif;
+    color: grey;
+  }
+
+  .chapterheadline1 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  .chapterheadline2 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  .chapterheadline3 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+  }
+
+  p {
+    font-family: georgia,serif;
+    line-height: 180%;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+
+  img {
+    align-items: center;
+    padding-left: 175px;
+    padding-bottom: 20px;
+  }
+
+  .caption {
+    font-family: georgia,serif;
+    font-size: 12px;
+    padding-left: 175px;
+    position: relative;
+    bottom: 20px;
+    color: grey;
+  }
+
+  .pagefooter {
+    background-color: #5B5A5B;
+    color: white;
+    position: relative;
+    top: 75px;
+  }
+
+  blockquote {
+    font-size: 30px;
+    color: grey;
+    font-weight: lighter;
+    font-family: georgia,"timesnewroman",helvetica;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+
+  .cinteractivetable {
+    font-family: georgia,serif;
+  margin-left: 1000px;
+  }
+
+  /*found CSS for navbar to stay the whole time on stackoverflow.com*/
+  .navbar {
+     z-index: 10000;
+     position: fixed;
+     width: 100%;
+  }
+
+}
 
 .headline {
   font-size: 2em;
